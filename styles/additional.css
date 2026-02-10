@@ -31,7 +31,7 @@
 }
 
 .services__list_item-link--neon::before {
-    content: "👤";
+    content: url("../images/account.svg");
     font-size: 22px;
     display: block;
     margin-bottom: 6px;
@@ -81,7 +81,7 @@
 
 .services__list_item-link--glass {
     color: #000;
-    background: rgba(255, 255, 255, 0.1);
+    background: #0077e6;
     backdrop-filter: blur(10px);
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.2);
@@ -112,7 +112,7 @@
 }
 
 .services__list_item-link--glass::before {
-    content: "👤";
+    content: url("../images/account.svg");
     font-size: 22px;
     display: block;
     margin-bottom: 6px;
@@ -193,7 +193,7 @@
 }
 
 .services__list_item-link--3d::before {
-    content: "👤";
+    content: url("../images/account.svg");
     font-size: 22px;
     display: block;
     margin-bottom: 6px;
@@ -269,7 +269,7 @@
 }
 
 .services__list_item-link--minimal::before {
-    content: "👤";
+   content: url("../images/account.svg");
     font-size: 22px;
     display: block;
     margin-bottom: 6px;
@@ -350,7 +350,7 @@
 }
 
 .services__list_item-link--glass-black::before {
-    content: "👤";
+    content: url("../images/account.svg");
     font-size: 22px;
     display: block;
     margin-bottom: 6px;
