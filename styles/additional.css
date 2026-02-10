@@ -141,7 +141,7 @@
 }
 
 .services__list_item-link--glass:hover {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(77, 180, 232, 0.2);
     box-shadow: 0 12px 48px rgba(0, 0, 0, 0.2),
                 0 0 20px rgba(255, 255, 255, 0.1);
     transform: translateY(-5px);
@@ -155,7 +155,7 @@
 
 .services__list_item-link--glass:active {
     transform: translateY(2px);
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(77, 180, 232, 0.15);
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 
