@@ -10,14 +10,14 @@
 }
 
 .header {
+  display: flex;
+  justify-content: center;
+    align-items: center;
     background: linear-gradient(135deg, var(--psuti-blue), var(--psuti-blue-dark));
     color: var(--psuti-white);
     padding: 10px 12px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    min-block-size: 80px;
+    min-block-size: 50px;
     text-align: center;
     margin-top: 15px;
 }
@@ -157,6 +157,7 @@
 .services__list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 10px;
     list-style: none;
 }
